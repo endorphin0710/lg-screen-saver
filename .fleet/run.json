@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "command",
+            "name": "xcodebuild debug",
+            "program": "xcodebuild",
+            "args": ["-scheme",  "LgScreenSaver", "build"],
+            "workingDir": "LgScreenSaver",
+        },
+        {
+            "type": "command",
+            "name": "xcodebuild release",
+            "program": "xcodebuild",
+            "args": ["-scheme",  "LgScreenSaverRelease", "build"],
+            "workingDir": "LgScreenSaver",
+        },
+    ]
+}
